@@ -1,0 +1,154 @@
+       *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            font-family: Arial, sans-serif;
+         
+        
+        }
+        .header{
+            margin: 10px;
+            padding:17px;
+            background-color: #123C69;
+            border-radius: 10px;
+            display:flex;
+            justify-content: space-between;
+            align-items: center;
+            color: white;
+        }
+        
+        .Iname{
+            font-weight: bold;
+            font-size: 25px;
+        }
+        .headName{
+            display: flex;
+            align-items: center;
+            gap:25px;
+            font-size: 14;
+        }
+    
+        .profile{
+            background-color: white;
+            padding: 25px;
+            border-radius: 10px;
+            border:1px solid #DBEAFE;
+            display:flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            margin: 50px;
+        }
+        .Sdetails{
+            display: flex;
+            flex-direction: column;
+            gap:10px
+        }
+        .name{
+            font-weight: bold;
+            font-size: 25px;
+            color: #123C69;
+        }
+        .role{
+            font-size: 15px;
+            color: #64748B;
+        }
+        .batch{
+            font-weight: bold;
+            font-size: 14px;
+            color:#2563EB;
+        }
+        .action{
+            background-color: #DCFCE7;
+            color:#15803D;
+            font-size: 13px;
+            border-radius: 20px;
+            font-weight: bold;
+            display: inline-block;
+            padding: 8px 18px;
+        }
+
+        .l{
+            margin: 50px;
+
+        }
+        .learn{
+            padding-top: 10px;
+            padding-bottom: 15px;
+            font-weight: bold;
+            font-size: 20px;
+            letter-spacing: 1px;
+            color:#123C69
+        }
+        .statistics{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            gap:15px;
+        }
+        .box{
+            display: flex;
+            flex-direction: column;
+            background-color: white;
+            border:1px solid #DBEAFE;
+            border-radius: 10px;
+            text-align: center;
+            padding:25px 15px;
+            flex:1;
+        }
+        .count{
+            color:#2563EB;
+            display: block;
+            font-weight: bold;
+            font-size: 30px;
+        }
+        .skills{
+            margin: 50px;
+            background-color: white;
+            border-radius: 10px;
+            border:1px solid #DBEAFE;
+            padding: 25px;
+        }
+        .skill{
+            font-weight: bold;
+            font-size: 20px;
+            color:#123C69;
+            margin-bottom: 15px;
+        }
+        .language{
+            display: flex;
+            flex-direction: row;
+            
+            align-items: center;
+            flex-wrap: wrap;
+            gap:12px;
+        }
+        .code{
+            border-radius: 20px;
+            background-color: #DBEAFE;
+            color: #1D4ED8;
+            font-size: 13px;
+            font-weight: bold;
+            display: inline-block;
+            padding:10px 20px;
+        }
+        .availability{
+            margin: 50px;
+           
+            border-left: 4px solid #2563EB;
+            border-radius: 5px;
+            padding: 15px 15px;
+            color:#1E40AF;
+            background-color: #EFF6FF;
+        }
+        .footer{
+            margin: 50px;
+            background-color: #123C69;
+            border-radius: 10px;
+            color:white;
+            text-align: center;
+            padding: 20px;
+        }
